@@ -1,19 +1,20 @@
 package Util;
+
 import java.io.File;  
 import java.util.ArrayList;  
 import java.util.List;  
 
 import javax.swing.JOptionPane;
   
-/** 
- * 递归读取某个目录下的所有文件 
- *  
- * @author mhh
- * @Date 2017年4月18日
- * @motto 辅助工具类-读取文件
- * @Version 1.0 
- */  
 public class ImgReadUtil {  
+	/** 
+	 * 递归读取某个目录下的所有文件 
+	 *  
+	 * @author mhh
+	 * @Date 2018年4月18日
+	 * @motto 辅助工具类-读取文件
+	 * @Version 1.0 
+	 */
     public static File[] myreader(String fileDir) {  
 		// TODO Auto-generated method stub
         List<File> fileList = new ArrayList<File>();  
