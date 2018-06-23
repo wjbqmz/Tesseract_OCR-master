@@ -1,20 +1,23 @@
 package Util;
+
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.IOException;
 
 import javax.imageio.ImageIO;
-/** 
- * 图片反色
- *  
- * @author mhh
- * @Date 2017年4月28日
- * @motto 辅助工具类-图片反色
- * @Version 1.0 
- */  
 
-public class ImgInverseUtil {
+import com.sun.org.apache.bcel.internal.generic.RETURN;
 
-    public static BufferedImage img_inverse(BufferedImage imgsrc) {
+public class ImgInverseUtil {  
+	/** 
+	 * 图片反色
+	 *  
+	 * @author mhh
+	 * @Date 2018年4月28日
+	 * @motto 辅助工具类-图片反色
+	 * @Version 1.0 
+	 */
+	/*public static BufferedImage img_inverse(BufferedImage imgsrc) {
         try {
             //创建一个不带透明度的图片
             BufferedImage back=new BufferedImage(imgsrc.getWidth(), imgsrc.getHeight(),BufferedImage.TYPE_INT_RGB);
@@ -49,12 +52,9 @@ public class ImgInverseUtil {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-    
-    public static void main(String[] args) {  
-        
-      
+    }*/
+    public static void main(String[] args) throws Exception{  
    
-     }  
+    }  
+}  
 
-}

@@ -1,4 +1,5 @@
 package Util;
+
 import java.awt.Rectangle;  
 import java.awt.image.BufferedImage;  
 import java.io.File;  
@@ -11,21 +12,18 @@ import javax.imageio.ImageReadParam;
 import javax.imageio.ImageReader;  
 import javax.imageio.stream.ImageInputStream;  
   
-/** 
- * 图片切割
- *  
- * @author mhh
- * @Date 2017年5月2日
- * @motto 辅助工具类-图片切割
- * @Version 1.0 
- */  
-
-
 public class ImgCutUtil {  
-  
+	/** 
+	 * 图片切割
+	 *  
+	 * @author mhh
+	 * @Date 2018年5月2日
+	 * @motto 辅助工具类-图片切割
+	 * @Version 1.0 
+	 */
     public static void main(String[] args) {  
        //测试用
-       // ImgCutUtil.cut(30, 50, 300, 400, "d:/1.jpg", "d:/100.jpg");  
+       //ImgCutUtil.cut(0, 0, 600, 75, "d:/1.png", "d:/1.png");  
   
     }  
   
@@ -40,7 +38,6 @@ public class ImgCutUtil {
      */  
     public static void cut(int x1, int y1, int width, int height,  
             String sourcePath, String descpath) {  
-  
         FileInputStream is = null;  
         ImageInputStream iis = null;  
         try {  
